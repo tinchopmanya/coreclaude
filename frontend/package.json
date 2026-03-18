@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test tests/smoke.test.mjs tests/shell_smoke.test.mjs tests/auth_smoke.test.mjs tests/project_smoke.test.mjs",
+    "dev:sandbox": "node sandbox_server.mjs"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "typescript": "5.8.3"
+  }
+}
